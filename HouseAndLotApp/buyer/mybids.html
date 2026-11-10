@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateBid - Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+
+        <!-- SIDE PANEL / NAVIGATION -->
+        <aside class="side-panel">
+            <div class="logo">
+                <div class="logo-brand">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></svg>
+                    <span>EstateBid</span>
+                </div>
+                <span class="close-icon">&times;</span>
+            </div>
+            
+            <nav class="nav-links">
+                <div class="section-title">WORKSPACE</div>
+                <a href="index.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    Overview
+                </a>
+                <a href="explore.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Explore
+                </a>
+                <a href="mybids.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 7l6 6M4 20l4-4M13 4l6 6L7 22H3v-4L13 4z"/></svg>
+                    My bids
+                </a>
+                <a href="update.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    Updates <span class="badge">3</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Profile
+                </a>
+            </nav>
+
+            <div class="bid-smarter-card">
+                <div class="card-trophy-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B08D57" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17M14 14.66V17M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>
+                </div>
+                <h3>Bid smarter</h3>
+                <p>Set alerts on properties you love and never miss a deadline.</p>
+                <a href="explore.html" class="browse-link">Browse auctions &rarr;</a>
+            </div>
+
+            <div class="footer-link">Do not sell or share my personal info &rsaquo;</div>
+        </aside>
+
+            <div id="page-container" class="mybids-content">
+                <div class="page-header">
+                    <div class="title-area">
+                        <span class="sub-title">YOUR ACTIVITY</span>
+                        <h1>My bids</h1>
+                        <p>Track your offers and stay ahead of every auction.</p>
+                    </div>
+                    <button class="white-btn export-btn">📄 Export history</button>
+                </div>
+
+                <!-- SUMMARY BOXES -->
+                <div class="bids-summary-row">
+                    <div class="summary-box">
+                        <span>Total bid value</span>
+                        <h2>$4,433,000</h2>
+                    </div>
+                    <div class="summary-box">
+                        <span>Auctions joined</span>
+                        <h2>12</h2>
+                    </div>
+                    <div class="summary-box active">
+                        <span>Currently leading</span>
+                        <h2>2</h2>
+                    </div>
+                    <div class="summary-box">
+                        <span>Auctions won</span>
+                        <h2>3</h2>
+                    </div>
+                </div>
+
+                <!-- TABS -->
+                <div class="tabs-row">
+                    <button class="tab active">All bids (13)</button>
+                    <button class="tab">Active (2)</button>
+                    <button class="tab">Outbid (5)</button>
+                    <button class="tab">Pending (1)</button>
+                </div>
+
+                <!-- BIDS TABLE -->
+                <table class="bids-table">
+                    <thead>
+                        <tr>
+                            <th>PROPERTY</th>
+                            <th>YOUR BID</th>
+                            <th>CURRENT BID</th>
+                            <th>BID DATE</th>
+                            <th>STATUS</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="prop-col">
+                                <img src="images/prop_thumb.jpg" alt="Property thumbnail">
+                                <div class="prop-info">
+                                    <strong>The Aurelia Residence</strong>
+                                    <span>Beverly Hills, CA</span>
+                                </div>
+                            </td>
+                            <td class="bid-col">$1,485,000</td>
+                            <td class="bid-col">$1,485,000</td>
+                            <td class="date-col">May 20, 2025<br><span>at 10:42 AM</span></td>
+                            <td><span class="status-badge winning">Winning</span></td>
+                            <td><button class="arrow-btn">&rarr;</button></td>
+                        </tr>
+                        <tr>
+                            <td class="prop-col">
+                                <img src="images/prop_thumb.jpg" alt="Property thumbnail">
+                                <div class="prop-info">
+                                    <strong>Caspian Glass House</strong>
+                                    <span>Malibu, CA</span>
+                                </div>
+                            </td>
+                            <td class="bid-col">$1,090,000</td>
+                            <td class="bid-col outbid-price">$1,125,000<br><span class="price-diff">+$35,000</span></td>
+                            <td class="date-col">May 19, 2025<br><span>at 10:42 AM</span></td>
+                            <td><span class="status-badge outbid">Outbid</span></td>
+                            <td><button class="arrow-btn">&rarr;</button></td>
+                        </tr>
+                        <tr>
+                            <td class="prop-col">
+                                <img src="images/prop_thumb.jpg" alt="Property thumbnail">
+                                <div class="prop-info">
+                                    <strong>Solana Palm Villa</strong>
+                                    <span>Miami, FL</span>
+                                </div>
+                            </td>
+                            <td class="bid-col">$1,170,000</td>
+                            <td class="bid-col outbid-price">$1,195,000<br><span class="price-diff">+$25,000</span></td>
+                            <td class="date-col">May 16, 2025<br><span>at 10:42 AM</span></td>
+                            <td><span class="status-badge outbid">Outbid</span></td>
+                            <td><button class="arrow-btn">&rarr;</button></td>
+                        </tr>
+                        <tr>
+                            <td class="prop-col">
+                                <img src="images/prop_thumb.jpg" alt="Property thumbnail">
+                                <div class="prop-info">
+                                    <strong>Monument Ridge</strong>
+                                    <span>Denver, CO</span>
+                                </div>
+                            </td>
+                            <td class="bid-col">$875,000</td>
+                            <td class="bid-col">$902,000</td>
+                            <td class="date-col">May 12, 2025<br><span>at 10:42 AM</span></td>
+                            <td><span class="status-badge lost">Lost</span></td>
+                            <td><button class="arrow-btn">&rarr;</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

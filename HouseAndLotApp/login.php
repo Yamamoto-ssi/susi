@@ -52,9 +52,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if ($user['role'] === 'Administrator') {
                     header("Location: admin/admin_dashboard.php");
                 } elseif ($user['role'] === 'Staff') {
-                    header("Location: staff/staff_dashboard.php");
-                } elseif ($user['role'] === 'Buyer' || $user['role'] === 'Client') {
+                    header("Location: staff/dashboard.php");
+                } elseif ($user['role'] === 'Buyer') {
                     header("Location: home.php");
+                } elseif ($user['role'] === 'Seller') {
+                    header("Location: seller/dashboard.php");
                 } else {
                     header("Location: logout.php");
                 }

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateBid - Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+
+        <!-- SIDE PANEL / NAVIGATION -->
+        <aside class="side-panel">
+            <div class="logo">
+                <div class="logo-brand">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></svg>
+                    <span>EstateBid</span>
+                </div>
+                <span class="close-icon">&times;</span>
+            </div>
+            
+            <nav class="nav-links">
+                <div class="section-title">WORKSPACE</div>
+                <a href="index.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    Overview
+                </a>
+                <a href="explore.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Explore
+                </a>
+                <a href="mybids.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 7l6 6M4 20l4-4M13 4l6 6L7 22H3v-4L13 4z"/></svg>
+                    My bids
+                </a>
+                <a href="update.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    Updates <span class="badge">3</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Profile
+                </a>
+            </nav>
+
+            <div class="bid-smarter-card">
+                <div class="card-trophy-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B08D57" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17M14 14.66V17M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>
+                </div>
+                <h3>Bid smarter</h3>
+                <p>Set alerts on properties you love and never miss a deadline.</p>
+                <a href="explore.html" class="browse-link">Browse auctions &rarr;</a>
+            </div>
+
+            <div class="footer-link">Do not sell or share my personal info &rsaquo;</div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            <!-- TOP NAVBAR -->
+            <header class="top-nav">
+                <div class="breadcrumb">EstateBid &nbsp;&rsaquo;&nbsp; <span>Profile &amp; settings</span></div>
+                <div class="top-nav-right">
+                    <span class="notification-icon">🔔</span>
+                    <div class="user-avatar">AM</div>
+                </div>
+            </header>
+
+            <!-- PAGE CONTENT -->
+            <div class="profile-page-container">
+                
+                <!-- HEADER ROW -->
+                <div class="profile-header">
+                    <span class="sub-title">ACCOUNT</span>
+                    <h1 class="serif-title">Profile &amp; settings</h1>
+                    <p>Manage your personal details and auction preferences.</p>
+                </div>
+
+                <!-- MAIN TWO-COLUMN LAYOUT -->
+                <div class="profile-layout">
+                    
+                    <!-- LEFT COLUMN: USER PROFILE CARD -->
+                    <div class="profile-sidebar-card">
+                        <div class="profile-user-top">
+                            <div class="large-avatar">AM</div>
+                            <div class="user-meta">
+                                <h3>Alex Morgan</h3>
+                                <span class="user-email">alex.morgan@example.com</span>
+                                <span class="verified-badge">✓ Identity verified</span>
+                            </div>
+                        </div>
+
+                        <!-- STATS ROW -->
+                        <div class="profile-stats-row">
+                            <div class="stat-item">
+                                <span class="stat-num">12</span>
+                                <span class="stat-label">Auctions</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">03</span>
+                                <span class="stat-label">Won</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">2022</span>
+                                <span class="stat-label">Member since</span>
+                            </div>
+                        </div>
+
+                        <!-- SETTINGS NAVIGATION MENU -->
+                        <div class="profile-menu-list">
+                            <a href="#" class="profile-menu-item active">
+                                <span class="menu-icon">👤</span> Personal details <span class="arrow">&rsaquo;</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">🛡️</span> Security <span class="arrow">&rsaquo;</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">🔔</span> Notifications <span class="arrow">&rsaquo;</span>
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <span class="menu-icon">💳</span> Payment methods <span class="arrow">&rsaquo;</span>
+                            </a>
+                        </div>
+
+                        <!-- SIGN OUT (Diretsong link papuntang login.html) -->
+                        <div class="profile-signout-box">
+                            <a href="login.html" class="signout-link">
+                                <span class="signout-icon">🚪</span> Sign out
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN: PERSONAL INFORMATION FORM -->
+                    <div class="profile-form-card">
+                        
+                        <div class="form-card-header">
+                            <div>
+                                <span class="form-section-title">PERSONAL INFORMATION</span>
+                                <h2 class="serif-subhead">Your details</h2>
+                                <p class="form-desc">Keep your contact information up to date.</p>
+                            </div>
+                            <button class="edit-profile-btn">Edit profile</button>
+                        </div>
+
+                        <form class="details-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>First name</label>
+                                    <input type="text" value="Alex">
+                                </div>
+                                <div class="form-group">
+                                    <label>Last name</label>
+                                    <input type="text" value="Morgan">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" value="alex.morgan@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone number</label>
+                                    <input type="text" value="+1 (310) 555-0198">
+                                </div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label>Mailing address</label>
+                                <input type="text" value="1428 Ocean Avenue, Santa Monica, CA 90401">
+                            </div>
+                        </form>
+
+                        <!-- SECURITY SECTION INSIDE FORM CARD -->
+                        <div class="security-section-box">
+                            <div class="security-info">
+                                <h3>Account security</h3>
+                                <p>Your password was last updated 3 months ago.</p>
+                            </div>
+                            <button class="change-pass-btn">Change password</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>

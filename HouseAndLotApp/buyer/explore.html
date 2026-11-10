@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateBid - Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+
+        <!-- SIDE PANEL / NAVIGATION -->
+        <aside class="side-panel">
+            <div class="logo">
+                <div class="logo-brand">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></svg>
+                    <span>EstateBid</span>
+                </div>
+                <span class="close-icon">&times;</span>
+            </div>
+            
+            <nav class="nav-links">
+                <div class="section-title">WORKSPACE</div>
+                <a href="index.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    Overview
+                </a>
+                <a href="explore.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Explore
+                </a>
+                <a href="mybids.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 7l6 6M4 20l4-4M13 4l6 6L7 22H3v-4L13 4z"/></svg>
+                    My bids
+                </a>
+                <a href="update.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    Updates <span class="badge">3</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <svg class="nav-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Profile
+                </a>
+            </nav>
+
+            <div class="bid-smarter-card">
+                <div class="card-trophy-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B08D57" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17M14 14.66V17M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>
+                </div>
+                <h3>Bid smarter</h3>
+                <p>Set alerts on properties you love and never miss a deadline.</p>
+                <a href="explore.html" class="browse-link">Browse auctions &rarr;</a>
+            </div>
+
+            <div class="footer-link">Do not sell or share my personal info &rsaquo;</div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            <!-- TOP NAVBAR -->
+            <header class="top-nav">
+                <div class="breadcrumb">EstateBid &nbsp;&rsaquo;&nbsp; <span>Explore Auctions</span></div>
+                <div class="top-nav-right">
+                    <span class="notification-icon">🔔</span>
+                    <div class="user-avatar">AM</div>
+                </div>
+            </header>
+
+            <!-- PAGE CONTENT -->
+            <div class="explore-page-container">
+                
+                <!-- HEADER ROW -->
+                <div class="explore-header">
+                    <div>
+                        <span class="sub-title">DISCOVER PROPERTIES</span>
+                        <h1 class="serif-title">Explore auctions</h1>
+                        <p>Browse live and upcoming luxury real estate auctions.</p>
+                    </div>
+                </div>
+
+                <!-- SEARCH & FILTER BAR -->
+                <div class="explore-filter-bar">
+                    <div class="search-input-wrap">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" placeholder="Search by location, property name, or style...">
+                    </div>
+                    <div class="filter-chips">
+                        <button class="chip-btn active">All Properties</button>
+                        <button class="chip-btn">Live Now</button>
+                        <button class="chip-btn">Ending Soon</button>
+                        <button class="chip-btn">Waterfront</button>
+                    </div>
+                </div>
+
+
+
+
+
+                
+
+            
+        <!-- MAIN CONTENT AREA -->                   <div class="sort-box">
+                        <span>Sort by:</span> <strong>Ending soon</strong>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
+                </div>
+
+                <!-- PROPERTY GRID (6 CARDS WITH SVG ICONS) -->
+                <div class="property-grid">
+
+                    <!-- Card 1: The Aurelia Residence -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="The Aurelia Residence">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">VILLA</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    2d 14h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">The Aurelia Residence</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                18 Palm Ridge, Beverly Hills, CA
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 5 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 4 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 4,250 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$1,485,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Caspian Glass House -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="Caspian Glass House">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">HOUSE</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    4d 08h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">Caspian Glass House</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                204 Ocean Bluff, Malibu, CA
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 4 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 3 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 3,480 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$1,125,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Oak & Stone Estate -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="Oak & Stone Estate">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">ESTATE</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    1d 06h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">Oak &amp; Stone Estate</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                76 Brookline Way, Austin, TX
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 4 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 3 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 3,120 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$810,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Verdant Courtyard -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="Verdant Courtyard">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">TOWNHOUSE</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    6d 21h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">Verdant Courtyard</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                92 Cedar Lane, Portland, OR
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 3 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 3 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 2,680 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$688,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Solana Palm Villa -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="Solana Palm Villa">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">VILLA</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    3d 18h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">Solana Palm Villa</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                310 Mariner Drive, Miami, FL
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 5 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 5 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 4,580 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$1,195,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Monument Ridge -->
+                    <div class="property-card">
+                        <div class="prop-img-container">
+                            <img src="images/prop_thumb.jpg" alt="Monument Ridge">
+                            <div class="prop-status-badge live-pill"><span class="live-dot"></span> Live auction</div>
+                            <button class="favorite-btn" aria-label="Favorite">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </button>
+                        </div>
+                        <div class="prop-card-body">
+                            <div class="prop-header-row">
+                                <div class="prop-category">HOUSE</div>
+                                <div class="time-remaining-badge">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    8d 03h
+                                </div>
+                            </div>
+                            <h3 class="prop-title serif-title-card">Monument Ridge</h3>
+                            <div class="prop-location-row">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                15 Summit View, Denver, CO
+                            </div>
+                            <div class="prop-specs-row">
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 4 beds</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-2.12 0l-.88.88a1.5 1.5 0 0 0 0 2.12L6 9M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/></svg> 4 baths</div>
+                                <div class="spec-item"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 3,340 ft²</div>
+                            </div>
+                            <div class="prop-price-row">
+                                <div>
+                                    <span class="price-label">Current bid</span>
+                                    <span class="price-val serif-price">$902,000</span>
+                                </div>
+                                <button class="view-details-btn">View details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
